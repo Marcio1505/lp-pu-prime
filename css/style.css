@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  background-image: url('../img/bg.png');
+  background-size: auto;
+  background-repeat: repeat;
+  background-position: center;
+  flex: 1; 
+}
+
+.top-bar {
+  background-color: #002359;
+  max-width: 100vw;
+  display: flex;
+  flex-direction: row;
+  padding: 0.2rem 1rem;
+  align-items: center;
+  box-sizing: border-box; 
+  height: 6vh;
+}
+
+.main-imgs {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 100%;
+  max-height: 100%;
+  box-sizing: border-box;
+  margin-top: 0.5rem;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+}
+
+.main-logo {
+  margin-top: 1rem;
+  max-height: 23vw;
+  max-width: 19rem;
+  width: auto;
+}
+
+
+.cellphone {
+  height: 55vh;
+  max-width: 95vw;
+  max-height: 95vw;
+  margin-top: -1rem;
+}
+
+.container-link {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  width: auto;
+  box-sizing: border-box;
+  margin: 0;
+  padding-bottom: 1rem;
+}
+
+.image-link {
+  text-decoration: none;
+  padding: 0; 
+  cursor: pointer;
+}
+
+.badge-img {
+  height: 8vh;
+  width: 100%;
+  margin-bottom: 0.5rem;
+  padding: 0;
+}
+
+footer {
+  background-color: #002359;
+  height: 6vh;
+  max-width: 100vw;
+  margin-top: auto;
+}
