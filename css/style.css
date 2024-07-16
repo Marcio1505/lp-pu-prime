@@ -9,9 +9,17 @@ body, html {
   height: 100%;
   margin: 0;
   padding: 0;
-  overflow: hidden;
   display: flex;
   flex-direction: column;
+
+scroll-behavior: auto;
+scroll-behavior: smooth;
+
+/* Valores globais */
+scroll-behavior: inherit;
+scroll-behavior: initial;
+scroll-behavior: unset;
+
 }
 
 body {
